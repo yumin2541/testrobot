@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230418 11:41:26.529" rpa="false" schemaversion="3">
+<suite id="s1" name="Test" source="D:\Desktop\formet Robot\test.robot">
+<test id="s1-t1" name="open google test" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.co.th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230418 11:41:26.665" level="INFO">Opening browser 'chrome' to base url 'https://www.google.co.th/'.</msg>
+<status status="PASS" starttime="20230418 11:41:26.665" endtime="20230418 11:41:29.026"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230418 11:41:32.028" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230418 11:41:29.027" endtime="20230418 11:41:32.028"/>
+</kw>
+<status status="PASS" starttime="20230418 11:41:26.665" endtime="20230418 11:41:32.029"/>
+</test>
+<status status="PASS" starttime="20230418 11:41:26.530" endtime="20230418 11:41:32.031"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
